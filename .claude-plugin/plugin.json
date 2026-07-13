@@ -1,0 +1,8 @@
+{
+  "name": "academic-paper",
+  "version": "0.1.0",
+  "description": "Bundles Typst typesetting and NotebookLM skills plus the notebooklm-mcp server for academic paper writing.",
+  "author": {
+    "name": "Timon Strauß"
+  }
+}

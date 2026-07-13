@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+
+# Python (skill-creator eval workflow drops these if we ever use it)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Node (unlikely, but cheap insurance)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# Skill-creator scratch / eval artifacts (build-time only, not part of the shipped skill)
+evals/
+iteration-*/
+
+# Transient / OS
+*.log
+*.tmp
+Thumbs.db
+
+CLAUDE.md
