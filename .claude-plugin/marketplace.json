@@ -1,0 +1,11 @@
+{
+  "name": "academic-paper-local",
+  "owner": { "name": "Timon Strauß" },
+  "plugins": [
+    {
+      "name": "academic-paper",
+      "source": "./",
+      "description": "Bundles Typst typesetting and NotebookLM skills plus the notebooklm-mcp server for academic paper writing."
+    }
+  ]
+}
