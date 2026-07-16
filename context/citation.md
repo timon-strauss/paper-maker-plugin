@@ -4,13 +4,12 @@
 
 `quelle` = Key aus der `.bib`. `supplement` wie beschrieben.
 
+Zitatstil: **IEEE**
+
 ## Zitatangabe
 ```typst
 #cite(<quelle>, supplement: "...")
 ```
-- **Indirekt (Paraphrase, Standardfall):** `Vgl. ` an den Anfang des `supplement`.
-  `#cite(<quelle>, supplement: "Vgl. S. 1")`
-- **Direkt:** kein `Vgl.`.
 
 ## Direktes Zitat
 - **<40 Wörter — inline:**
@@ -33,7 +32,17 @@
 **Regel**: passendes Supplement gefunden: mich warnen; nicht ausdenken
 
 Fundstelle als Text. Aufbau je‘ nach Quelle:
-- **Mit Seite:** `S. N` — Folgeseite `S. N f.`, mehrere `S. N ff.`
-- **Ohne Seite:** `Kap N.N, „Titel“, Abschn. „Abschnitt“`
-- **Direktes Zitat:** zusätzlich Zeilenangabe dahinter: `S. N, Z. N-N` bzw. `Kap N.N „Titel“, Abschn. „Abschnitt“, Z. N-N`
-- **Indirekt:** `Vgl. ` davor: `Vgl. S. N`
+- **Indirekt (Paraphrase, Standardfall):** `Vgl. ` an den Anfang des `supplement`.
+- **Direkt:** kein `Vgl.`.
+
+Seiten müssen in der Quelle stehen; Nimm **niemals** die PDF Seite!
+
+| Quelle | Angabe im Beleg | supplement |
+|--------------------|-----------------|----------|
+| Quelle mit seiten | Seite | `S. N` |
+| Webseite mit Abschnitten | Abschnitt | `Abschn. N]` |
+| E-Book / PDF mit Kapiteln | Kapitel | `Kap. N` |
+| Fließtext ohne Struktur | Absatz | `Abs. 7` |
+| Norm / Standard | Abschnitt/Klausel | `Abschn. N.N` |
+| Gesetz | Paragraph/Artikel | `§ N` |
+| Video / Audio | Zeitstempel | `mm:ss` |

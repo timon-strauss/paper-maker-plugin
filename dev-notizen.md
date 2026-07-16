@@ -8,6 +8,7 @@ In den folder kommen alle wichtigen PA conventionen :
 - Gliederungsstruktur => structure.md
 - argumentationsstrategie / roter faden => argumentation.md
 - Quellensuche und verwaltung => sources.md
+- Sprachvorgaben => language.md
 
 **Wichtig**: die context files MÜSSEN klein sein. Jeder Char kostet kontext in jeder session und jedem prompt
 
