@@ -1,9 +1,9 @@
 {
-  "name": "academic-paper-local",
+  "name": "paper-maker-marketplace",
   "owner": { "name": "Timon Strauß" },
   "plugins": [
     {
-      "name": "academic-paper",
+      "name": "paper-maker",
       "source": "./",
       "description": "Bundles Typst typesetting and NotebookLM skills plus the notebooklm-mcp server for academic paper writing."
     }
