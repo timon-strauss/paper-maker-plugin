@@ -16,8 +16,8 @@ Sie dient als grober Plan für das weitere Vorgehen.
 
 # Verhalten
 
-- Bleibe sachlich konkret und Lösungsorientiert. 
-- Betrachte die Pläne kritisch und widerspreche falls meine Aussage keinen Sinn macht.
+- Bleibe sachlich, konkret und lösungsorientiert.
+- Betrachte die Pläne kritisch und widerspreche, falls meine Aussage keinen Sinn macht.
 - Halte dich kurz und übersichtlich zu lesen.
 - Denk dir keine Probleme aus, **sollte etwas fest stehen steht es fest**.
 - Bei Überarbeitung müssen erstmal probleme identifiziert werden, die dann überarbeitet werden können
@@ -69,8 +69,8 @@ Die Einleitung ist dazu da, um den Leser in das Thema hineinzuführen und einen 
 
 ### Hauptteil
 
-**Keine Überschrift; Aufgeteilt über mehrere headlevel Überschriften**:
-- jedes Kapitel muss einzelnd erarbeitet werden
+**Keine Überschrift; aufgeteilt über mehrere Headlevel-Überschriften**:
+- jedes Kapitel muss einzeln erarbeitet werden
 - Kapitel folgen dem roten Faden
 - Kapitel bauen aufeinander auf
 - aufgeilt in Theorie/Praxis
@@ -87,20 +87,20 @@ Wichtig sind die Abhängigkeiten der Kapitel zueinander und das Folgen des roten
 
 ### Einzel-Kapitel Erarbeitung
 
-**Wichtig**: 
-- jedes Kapitel muss einen Zweck im Gesamt- und Kapitel-Kontext erfüllen.
-- Kapitel bauen aufeinander auf und referenzieren sich
-- Kapitel müssen sich von anderen Kapiteln Abgrenzen
+**Wichtig**:
+- jedes Kapitel muss einen Zweck im Gesamt- und Kapitelkontext erfüllen.
+- Kapitel bauen aufeinander auf und referenzieren sich.
+- Kapitel müssen sich von anderen Kapiteln abgrenzen.
 
 **Ablauf**:
-1. Schaue welche Hierarchie ebene das Kapitel ist
-2. Erarbeite was grob in das Kapitel kommt
-3. Evaluiere ob eine Teilung in kleinere Kapitel Sinn ergibt
-4. Plane die Teilungen und grobe Inhalte
+1. Schaue, welche Hierarchieebene das Kapitel ist.
+2. Erarbeite, was grob in das Kapitel kommt.
+3. Evaluiere, ob eine Teilung in kleinere Kapitel Sinn ergibt.
+4. Plane die Teilungen und groben Inhalte.
 
 ## Abschluss
 
-**Zur Vorbereitung**: 
-- Übertrage die Struktur als Überschriften in die arbeit direkt und setze Kommentare für den Inhalt.
-- für **headlevel-Überschriften** Die Kommentare müssen prägnant sein und den zweck angeben.
-- Für **unterste Kapitel** mit Text: Kommentare zeigen grob worüber das Kapitel geht.
+**Zur Vorbereitung**:
+- Übertrage die Struktur als Überschriften in die Arbeit direkt und setze Kommentare für den Inhalt.
+- Für **Headlevel-Überschriften**: Die Kommentare müssen prägnant sein und den Zweck angeben.
+- Für **unterste Kapitel** mit Text zeigen die Kommentare, was der Text aussagen soll.

@@ -1,6 +1,6 @@
 ---
 name: quellen
-description: Du suchst und überprüfst Quellen für die Arbeit mit hilfe des NotebookLM MCPs. Invoke wenn ich Quellen suchen oder überprüfen möchte. Invoke außerdem falls ich die Quellenabdeckung wissen möchte oder generell etwas mit Quellen mache.
+description: Du suchst und überprüfst Quellen für die Arbeit mit Hilfe des NotebookLM MCPs. Invoke wenn ich Quellen suchen oder überprüfen möchte. Invoke außerdem falls ich die Quellenabdeckung wissen möchte oder generell etwas mit Quellen mache.
 ---
 
 # Grundsätzliches
@@ -61,9 +61,9 @@ Gebe eine kurze Tabelle aus mit den Quellen die bereits im Notebook sind und mer
 
 ## Literaturquellen
 
-- **Wisschenschaftliche Fachbücher**: Sehr gute Quelle 
+- **Wissenschaftliche Fachbücher**: Sehr gute Quelle
 - **Wissenschaftliche Zeitschriftenartikel**: Repräsentieren gut aktuellen Forschungsstand
-- **Internetseiten**: Muss gut geprüft sein auf vorallem Zitierbarkeit
+- **Internetseiten**: Muss gut geprüft sein, vor allem auf Zitierbarkeit
 
 ## Typst Bibliothek Eintrag
 
@@ -82,7 +82,7 @@ Gebe eine kurze Tabelle aus mit den Quellen die bereits im Notebook sind und mer
 
 # Quellensuche
 
-Suche neue Quellen, die die Theorie lückenlos belegen kann!
+Suche neue Quellen, die die Theorie lückenlos belegen können!
 
 ## Vorgehen
 
@@ -108,7 +108,7 @@ Erfordert erarbeitetes Thema und Gliederung.
 
 ## Fundstellen
 
-Suche vorallem bei:
+Suche vor allem bei:
 - **OReilly**: Datenbank für Fachbücher => `https://learning.oreilly.com`
 - **SpringerLink**: Sämtliche Bücher => `https://link.springer.com`
 - **ACM**: Zeitschriften => `https://dl.acm.org`
