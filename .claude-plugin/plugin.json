@@ -1,6 +1,6 @@
 {
   "name": "paper-maker",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "Bundles Typst typesetting and NotebookLM skills plus the notebooklm-mcp server for academic paper writing.",
   "author": {
     "name": "Timon Strauß"
@@ -11,7 +11,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "for f in \"${CLAUDE_PLUGIN_ROOT}/CLAUDE.md\"; do [ -e \"$f\" ] && cat \"$f\"; done"
+            "command": "for f in \"${CLAUDE_PLUGIN_ROOT}/PLUGIN.md\"; do [ -e \"$f\" ] && cat \"$f\"; done"
           }
         ]
       }

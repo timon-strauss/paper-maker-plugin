@@ -101,3 +101,14 @@ Der Faden basiert auf der Forschungsfrage und den Unterfragen, da er sie nachein
 Der Faden verläuft meist trichterförmig und aufbauend: Allgemein (Theorie) => spezifisch => Entscheidung => implementierung.
 Kann aber auch ganz anders aussehen: Erarbeite mit mir.
 Im roten Faden muss sich zeigen dass Theorie und Praxis gut aufgeteilt ist wie es die Vorgaben geben.
+
+# Abschluss
+
+Sobald alles fertig ist schreibe einen ganz kurzen Abschnitt in die Claude.md im projekt:
+- Themenfindung ist abgeschlossen
+- Kurze beschreibung des Themas und des Projekts
+- Verweis auf Notizen
+
+Schlage im Nachhinein folgendes vor:
+- Thematik überarbeiten
+- mit Gliederung weiter machen

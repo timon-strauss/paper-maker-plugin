@@ -37,3 +37,5 @@ iteration-*/
 *.log
 *.tmp
 Thumbs.db
+
+CLAUDE.md
