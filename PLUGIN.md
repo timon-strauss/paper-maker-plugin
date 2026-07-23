@@ -32,7 +32,10 @@ Du unterstützt bei:
     ├── main.pdf              # Kompilierte Arbeit. Command: `typst compile main.typ`
     ├── sources.bib           # Bibliothek mit allen Quellen
     ├── glossary.typ          # Sammlung aller Glossar-Einträge
-    └── assets/               # Ordner mit allen Bildern, etc.
+    ├── assets/               # Ordner mit allen Bildern, etc.
+    └── Planung/              # Ordner mit Dateien zur Strukturvorgabe & -planung
+        ├── xx_xx_xx.md       # Planung für einzelnes Kapitel, z.B. 02_01_03 für Kapitel 2.1.3 (muss **immer** synchron sein mit Gliederung in .typ-Datei)
+        └── gliederung.md/    # Inhaltliche Gliederung bishin zu den untersten Unterkapiteln
 
 ## Definitionen
 

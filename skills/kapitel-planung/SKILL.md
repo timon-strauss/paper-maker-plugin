@@ -31,6 +31,20 @@ Du machst folgendes:
 
 # Vorgehen
 
+## Voraussetzung
+
+1. **Gliederung**
+
+Um einzelne Kapitel planen zu können, sollte die Gliederung der Arbeit bereits abgeschlossen sein.
+
+2. **Ordner-Struktur**
+
+Der Inhalt der Planung wird im `Planung/`-Ordner dokumentiert. Die `gliederung.md` **muss** aktuell sein mit der Gliederung in der .typ-Datei. Falls Abweichungen bestehen, möchte ich entscheiden, was richtig ist und was nicht.
+Falls die `gliederung.md` nicht existiert oder keine Gliederung in der .typ-Datei vorhanden ist, erstelle den fehlenden Teil.
+
+In den anderen Dateien, deren Format `xx_xx_xx.md` ähnelt (z.B. 02_01_03.md), ist der Planungsstand des jeweiligen Kapitels (2.1.3) dokumentiert. Aus diesen Dateien liest du und in diese Dateien schreibst du.
+
+
 ## Anfang
 
 Du brauchst ein Kapitel zum Bearbeiten.
@@ -49,31 +63,30 @@ Folgende Punkte müssen zusammen mit mir erarbeitet werden:
 - Bezug zum Kontext der Arbeit
 - Einzelne Absätze
 
-Am Ende dieser Erarbeitung schreibst du diese Notizen in Form von Kommentaren in das Kapitel in der .typ-Datei an der entsprechenden Stelle.
-Kommentare für Absätze werden mit `//#Absatz:` eingeleitet.
-Folge dem grundsätzlicher Aufbau für Kommentare für ein Kapitel:
+Am Ende dieser Erarbeitung schreibst du diese Notizen in die entsprechende Kapitel-Datei im `Planung/`-Ordner.
+Folge dem grundsätzlichen Aufbau für die Planung für ein Kapitel:
 
 ```
-// Ziel: Leser versteht was Java ist, kann Variablen und Konstanten unterscheiden,
-// kennt primitive Datentypen und Klassen, versteht Vererbung und versteht die
-// Anwendungsfälle von Java im Business-IT Kontext.
-// Länge: 2 Seiten
-// Bezug: Grundsätzliche Informationen über Java vermitteln
+Ziel: Leser versteht was Java ist, kann Variablen und Konstanten unterscheiden,
+kennt primitive Datentypen und Klassen, versteht Vererbung und versteht die
+Anwendungsfälle von Java im Business-IT Kontext.
+Länge: 2 Seiten
+Bezug: Grundsätzliche Informationen über Java vermitteln
 
-//#Absatz: Java Info
-// Aufbau:
-// - Grundsätzliches: Was ist Java
-// - Geschichte: Erfinder, Erscheinungsjahr
-// - Warum Java?
+Absatz: Java Info
+  Aufbau:
+  - Grundsätzliches: Was ist Java
+  - Geschichte: Erfinder, Erscheinungsjahr
+  - Warum Java?
 
-//#Absatz: ...
-// Aufbau:
-// - ...
+Absatz: ...
+  Aufbau:
+  - ...
 ```
 
 In diesem Teil dürfen **keine inhaltlichen Informationen** eingebracht werden. Notiere nur, *worüber* du schreiben möchtest, *nicht was*.
 Sämtlicher Inhalt muss nämlich grundsätzlich zuerst *an Quellen erarbeitet* werden und im Anschluss auch *an diesen Quellen belegt* sein.
-Einzige Ausnahme sind praktische Inhalte, bspw. meine Umsetzung oder bestimmte Entscheidungen, die ich getroffen habe. Hierfür bin nämlich ich die einzige Quelle.
+Einzige Ausnahme sind praktische Inhalte, bspw. meine praktische Umsetzung einer Aufgabe oder bestimmte Entscheidungen, die ich getroffen habe. Hierfür bin nämlich ich die einzige Quelle.
 
 Frage nun, ob die Planung des Inhalts soweit in Ordnung geht.
 
@@ -82,10 +95,22 @@ Frage nun, ob die Planung des Inhalts soweit in Ordnung geht.
 - Suche mit NotebookLM und der Typst Bibliothek nach Quellen, die die Inhalte tragen könnten
 - Suche **keine neuen** Quellen, ausschließlich bereits vorhandene
 - **Stelle absolut sicher**, dass die benutzten Quellen auch tatsächlich in der Typst Bibliothek aufgelistet sind, sonst kannst du sie nicht verwenden
-- Notiere die Quellen direkt zum jeweiligen Absatz mit einem zusätzlichen Kommentar: ```// Quellen: a, b, c ```
+- Notiere die Quellen direkt zum jeweiligen Absatz mit einem zusätzlichen Abschnitt:
+```
+Absatz: Java Info
+  Aufbau:
+  - Grundsätzliches: Was ist Java
+  - Geschichte: Erfinder, Erscheinungsjahr
+  - Warum Java?
+
+  Quellen:
+  - a
+  - b
+  - c
+```
 - Schlage direkte Zitate vor, falls passend. **Wichtig!**: direkte Zitate müssen **sehr selten** vorkommen, aber sollten manchmal vorkommen. Nur falls es **wirklich** Sinn macht schlage ein direktes Zitat vor!
 - Falls ich zustimme zum direkten Zitat: suche über `notebook_query` ein direktes Zitat aus einer **direkt zitierbaren** Quelle heraus
-- Setze dieses direkte Zitat in einen Kommentar zum Absatz hinzu: `//direktes Zitat:"<Zitat>" <Quellenangabe>`
+- Setze dieses direkte Zitat in eine Anmerkung zum Absatz: `Direktes Zitat: "<Zitat>" <Quellenangabe>`
 
 Frage erneut nach Bestätigung und fahre dann fort.
 
@@ -100,14 +125,17 @@ Nun kommt der Schritt, in dem du tatsächlich inhaltliche Notizen schreiben darf
 Hier ist eine Erweiterung für das Java-Beispiel von oben:
 
 ```
-//#Absatz: Java Info
-// Aufbau:
-// - Grundsätzliches: Was ist Java
-// - Geschichte: Erfinder, Erscheinungsjahr
-// - Warum Java?
-//
-// Inhalt:
-// - Java = weltweit verbreitete, objektorientierte Programmiersprache (quelle a, stelle a)
-// - entwickelt von James Gosling 1991 mit Sun Microsystems, veröffentlicht 1995 (quelle b, stelle b)
-// - Java weil ...
+Absatz: Java Info
+  Aufbau:
+  - Grundsätzliches: Was ist Java
+  - Geschichte: Erfinder, Erscheinungsjahr
+  - Warum Java?
+
+  Quellen:
+  - ...
+
+  Inhalt:
+  - Java = weltweit verbreitete, objektorientierte Programmiersprache (a)
+  - entwickelt von James Gosling 1991 mit Sun Microsystems, veröffentlicht 1995 (a, b)
+  - Java weil ...
 ```
